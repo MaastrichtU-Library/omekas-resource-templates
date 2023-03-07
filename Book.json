@@ -1,0 +1,537 @@
+{
+    "o:label": "Book",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": "Book title",
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "name",
+            "label": "name"
+        },
+        {
+            "o:alternate_label": "Author",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "valuesuggest:ndeterms:wikipers",
+                    "label": "NDE: Wikidata: personen"
+                },
+                {
+                    "name": "valuesuggest:oclc:viaf",
+                    "label": "OCLC: The Virtual International Authority File (VIAF)"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "author",
+            "label": "author"
+        },
+        {
+            "o:alternate_label": "Translator",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "valuesuggest:ndeterms:wikipers",
+                    "label": "NDE: Wikidata: personen"
+                },
+                {
+                    "name": "valuesuggest:oclc:viaf",
+                    "label": "OCLC: The Virtual International Authority File (VIAF)"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "translator",
+            "label": "translator"
+        },
+        {
+            "o:alternate_label": "Editor",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "valuesuggest:ndeterms:wikipers",
+                    "label": "NDE: Wikidata: personen"
+                },
+                {
+                    "name": "valuesuggest:oclc:viaf",
+                    "label": "OCLC: The Virtual International Authority File (VIAF)"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "editor",
+            "label": "editor"
+        },
+        {
+            "o:alternate_label": "Illustrator",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "valuesuggest:ndeterms:wikipers",
+                    "label": "NDE: Wikidata: personen"
+                },
+                {
+                    "name": "valuesuggest:oclc:viaf",
+                    "label": "OCLC: The Virtual International Authority File (VIAF)"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "illustrator",
+            "label": "illustrator"
+        },
+        {
+            "o:alternate_label": "Contributor",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "valuesuggest:ndeterms:wikipers",
+                    "label": "NDE: Wikidata: personen"
+                },
+                {
+                    "name": "valuesuggest:oclc:viaf",
+                    "label": "OCLC: The Virtual International Authority File (VIAF)"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "contributor",
+            "label": "contributor"
+        },
+        {
+            "o:alternate_label": "Description",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "description",
+            "label": "description"
+        },
+        {
+            "o:alternate_label": "Place of publication",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "valuesuggest:geonames:geonames",
+                    "label": "Geonames: The GeoNames geographical database"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "locationCreated",
+            "label": "locationCreated"
+        },
+        {
+            "o:alternate_label": "Publisher",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "valuesuggest:ndeterms:wikipers",
+                    "label": "NDE: Wikidata: personen"
+                },
+                {
+                    "name": "valuesuggest:oclc:viaf",
+                    "label": "OCLC: The Virtual International Authority File (VIAF)"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "publisher",
+            "label": "publisher"
+        },
+        {
+            "o:alternate_label": "Year of publication",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "numeric:timestamp",
+                    "label": "Timestamp"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "datePublished",
+            "label": "datePublished"
+        },
+        {
+            "o:alternate_label": "Copyright year",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "numeric:timestamp",
+                    "label": "Timestamp"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "copyrightYear",
+            "label": "copyrightYear"
+        },
+        {
+            "o:alternate_label": "Manufacturer",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "valuesuggest:ndeterms:wikiall",
+                    "label": "NDE: Wikidata: alle entiteiten"
+                },
+                {
+                    "name": "valuesuggest:oclc:viaf",
+                    "label": "OCLC: The Virtual International Authority File (VIAF)"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "manufacturer",
+            "label": "manufacturer"
+        },
+        {
+            "o:alternate_label": "Physical Description",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/ontology\/bibo\/",
+            "vocabulary_label": "Bibliographic Ontology",
+            "local_name": "shortDescription",
+            "label": "shortDescription"
+        },
+        {
+            "o:alternate_label": "Language",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "valuesuggest:lc:iso6391",
+                    "label": "LC: ISO639-1 Languages"
+                },
+                {
+                    "name": "customvocab:5",
+                    "label": "Languages"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "inLanguage",
+            "label": "inLanguage"
+        },
+        {
+            "o:alternate_label": "Edition",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "bookEdition",
+            "label": "bookEdition"
+        },
+        {
+            "o:alternate_label": "Volume",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "volumeNumber",
+            "label": "volumeNumber"
+        },
+        {
+            "o:alternate_label": "ISBN",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "isbn",
+            "label": "isbn"
+        },
+        {
+            "o:alternate_label": "Call number",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "valuesuggest:geonames:geonames",
+                    "label": "Geonames: The GeoNames geographical database"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "itemLocation",
+            "label": "itemLocation"
+        },
+        {
+            "o:alternate_label": "Abstract",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "abstract",
+            "label": "abstract"
+        },
+        {
+            "o:alternate_label": "Keywords",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "keywords",
+            "label": "keywords"
+        },
+        {
+            "o:alternate_label": "Geographic depiction",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "valuesuggest:geonames:geonames",
+                    "label": "Geonames: The GeoNames geographical database"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "contentLocation",
+            "label": "contentLocation"
+        },
+        {
+            "o:alternate_label": "Genre",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "valuesuggest:lc:genreForms",
+                    "label": "LC: Genre\/Form Terms"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "genre",
+            "label": "genre"
+        },
+        {
+            "o:alternate_label": "Link to",
+            "o:alternate_comment": "Links to WorldCat, WikiData or WikiCommons go here.\r\nURL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Wikidata entry, or official website.",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "uri",
+                    "label": "URI"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "sameAs",
+            "label": "sameAs"
+        },
+        {
+            "o:alternate_label": "Collection",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "isPartOf",
+            "label": "isPartOf"
+        },
+        {
+            "o:alternate_label": "Related Item",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "uri",
+                    "label": "URI"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "relatedLink",
+            "label": "relatedLink"
+        },
+        {
+            "o:alternate_label": "License",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "license",
+            "label": "license"
+        },
+        {
+            "o:alternate_label": "Copyright",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "valuesuggest:oclc:viaf",
+                    "label": "OCLC: The Virtual International Authority File (VIAF)"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "copyrightHolder",
+            "label": "copyrightHolder"
+        },
+        {
+            "o:alternate_label": "Provider",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "valuesuggest:oclc:viaf",
+                    "label": "OCLC: The Virtual International Authority File (VIAF)"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "provider",
+            "label": "provider"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+        "vocabulary_label": "Schema.org",
+        "local_name": "Book",
+        "label": "Book"
+    },
+    "o:title_property": {
+        "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+        "vocabulary_label": "Schema.org",
+        "local_name": "name",
+        "label": "name"
+    },
+    "o:description_property": {
+        "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+        "vocabulary_label": "Schema.org",
+        "local_name": "description",
+        "label": "description"
+    }
+}
