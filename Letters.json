@@ -66,6 +66,10 @@
                 {
                     "name": "numeric:timestamp",
                     "label": "Timestamp"
+                },
+                {
+                    "name": "numeric:interval",
+                    "label": "Interval"
                 }
             ],
             "vocabulary_namespace_uri": "https:\/\/schema.org\/",
@@ -106,10 +110,6 @@
                 {
                     "name": "valuesuggest:lc:iso6391",
                     "label": "LC: ISO639-1 Languages"
-                },
-                {
-                    "name": "customvocab:5",
-                    "label": "Languages"
                 }
             ],
             "vocabulary_namespace_uri": "https:\/\/schema.org\/",
@@ -214,6 +214,10 @@
                 {
                     "name": "literal",
                     "label": "Text"
+                },
+                {
+                    "name": "valuesuggest:geonames:geonames",
+                    "label": "Geonames: The GeoNames geographical database"
                 },
                 {
                     "name": "valuesuggest:oclc:viaf",

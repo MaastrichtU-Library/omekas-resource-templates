@@ -90,6 +90,10 @@
                 {
                     "name": "uri",
                     "label": "URI"
+                },
+                {
+                    "name": "valuesuggest:getty:aat",
+                    "label": "Getty: The Art & Architecture Thesaurus (AAT)"
                 }
             ],
             "vocabulary_namespace_uri": "https:\/\/schema.org\/",
@@ -200,6 +204,10 @@
                     "label": "Text"
                 },
                 {
+                    "name": "valuesuggest:geonames:geonames",
+                    "label": "Geonames: The GeoNames geographical database"
+                },
+                {
                     "name": "valuesuggest:oclc:viaf",
                     "label": "OCLC: The Virtual International Authority File (VIAF)"
                 }
@@ -221,5 +229,11 @@
         "vocabulary_label": "Schema.org",
         "local_name": "name",
         "label": "name"
+    },
+    "o:description_property": {
+        "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+        "vocabulary_label": "Schema.org",
+        "local_name": "description",
+        "label": "description"
     }
 }
