@@ -170,6 +170,26 @@
             "label": "itemLocation"
         },
         {
+            "o:alternate_label": "License",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "customvocab:2",
+                    "label": "CC-Licenses"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "license",
+            "label": "license"
+        },
+        {
             "o:alternate_label": "Copyright",
             "o:alternate_comment": null,
             "o:is_required": false,
@@ -188,22 +208,6 @@
             "vocabulary_label": "Schema.org",
             "local_name": "copyrightHolder",
             "label": "copyrightHolder"
-        },
-        {
-            "o:alternate_label": "License",
-            "o:alternate_comment": null,
-            "o:is_required": false,
-            "o:is_private": false,
-            "data_types": [
-                {
-                    "name": "literal",
-                    "label": "Text"
-                }
-            ],
-            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
-            "vocabulary_label": "Schema.org",
-            "local_name": "license",
-            "label": "license"
         },
         {
             "o:alternate_label": "Provider",

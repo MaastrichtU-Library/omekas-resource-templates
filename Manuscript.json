@@ -162,6 +162,10 @@
                 {
                     "name": "literal",
                     "label": "Text"
+                },
+                {
+                    "name": "customvocab:2",
+                    "label": "CC-Licenses"
                 }
             ],
             "vocabulary_namespace_uri": "https:\/\/schema.org\/",
