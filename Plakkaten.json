@@ -1,0 +1,351 @@
+{
+    "o:label": "Plakkaten",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": "Collectie",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "collection",
+            "label": "collection"
+        },
+        {
+            "o:alternate_label": "Volgnummer",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "identifier",
+            "label": "identifier"
+        },
+        {
+            "o:alternate_label": "Vindplaats",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "source",
+            "label": "Source"
+        },
+        {
+            "o:alternate_label": "Kopregest",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "name",
+            "label": "name"
+        },
+        {
+            "o:alternate_label": "Regest",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "description",
+            "label": "description"
+        },
+        {
+            "o:alternate_label": "Wetgevende Instantie",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "legislationPassedBy",
+            "label": "legislationPassedBy"
+        },
+        {
+            "o:alternate_label": "Plaats van uitvaardiging",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "jurisdiction",
+            "label": "jurisdiction"
+        },
+        {
+            "o:alternate_label": "Datum uitvaardiging",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "numeric:timestamp",
+                    "label": "Timestamp"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "legislationDate",
+            "label": "legislationDate"
+        },
+        {
+            "o:alternate_label": "Paraaf toezendende instantie",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "author",
+            "label": "author"
+        },
+        {
+            "o:alternate_label": "Signatuur",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "sourceOrganization",
+            "label": "sourceOrganization"
+        },
+        {
+            "o:alternate_label": "Contrasignatuur",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "participant",
+            "label": "participant"
+        },
+        {
+            "o:alternate_label": "Zegel",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "legislationLegalValue",
+            "label": "legislationLegalValue"
+        },
+        {
+            "o:alternate_label": "Vorm",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "publicationType",
+            "label": "publicationType"
+        },
+        {
+            "o:alternate_label": "Taal",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "inLanguage",
+            "label": "inLanguage"
+        },
+        {
+            "o:alternate_label": "Adviserende Instantie",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "legislationResponsible",
+            "label": "legislationResponsible"
+        },
+        {
+            "o:alternate_label": "Toezendende instantie",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "sender",
+            "label": "sender"
+        },
+        {
+            "o:alternate_label": "Plaats van toezending",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "fromLocation",
+            "label": "fromLocation"
+        },
+        {
+            "o:alternate_label": "Datum van toezending",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "numeric:timestamp",
+                    "label": "Timestamp"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "dateSent",
+            "label": "dateSent"
+        },
+        {
+            "o:alternate_label": "Paraaf, Signatuur, Contrasignatuur toezendende instantie",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "authenticator",
+            "label": "authenticator"
+        },
+        {
+            "o:alternate_label": "Uitvoerende instantie",
+            "o:alternate_comment": "This organization is installed to execute, supervise or control the goals of  commanding organization ",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "subOrganization",
+            "label": "subOrganization"
+        },
+        {
+            "o:alternate_label": "Datum ontvangst",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "numeric:timestamp",
+                    "label": "Timestamp"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "dateReceived",
+            "label": "dateReceived"
+        },
+        {
+            "o:alternate_label": "Datum afkondiging",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "dateRead",
+            "label": "dateRead"
+        },
+        {
+            "o:alternate_label": "Geldingsgebied",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "serviceArea",
+            "label": "serviceArea"
+        },
+        {
+            "o:alternate_label": "Plaats van uitvoering",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "geographicArea",
+            "label": "geographicArea"
+        },
+        {
+            "o:alternate_label": "Drukker",
+            "o:alternate_comment": "The printing company that printed the poster",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "publisherImprint",
+            "label": "publisherImprint"
+        },
+        {
+            "o:alternate_label": "Drukplaats",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "locationCreated",
+            "label": "locationCreated"
+        },
+        {
+            "o:alternate_label": "Bijzonderheden",
+            "o:alternate_comment": "Here: additional information on the subject",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "about",
+            "label": "about"
+        },
+        {
+            "o:alternate_label": "DJVU Jaar",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "additionalProperty",
+            "label": "additionalProperty"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+        "vocabulary_label": "Schema.org",
+        "local_name": "Poster",
+        "label": "Poster"
+    },
+    "o:title_property": {
+        "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+        "vocabulary_label": "Schema.org",
+        "local_name": "name",
+        "label": "name"
+    },
+    "o:description_property": {
+        "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+        "vocabulary_label": "Schema.org",
+        "local_name": "description",
+        "label": "description"
+    }
+}
