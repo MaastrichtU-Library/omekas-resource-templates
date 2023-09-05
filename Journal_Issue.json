@@ -55,6 +55,17 @@
             "label": "dateIssued"
         },
         {
+            "o:alternate_label": "Volume",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "volumeNumber",
+            "label": "volumeNumber"
+        },
+        {
             "o:alternate_label": "License",
             "o:alternate_comment": null,
             "o:is_required": false,
@@ -75,6 +86,26 @@
             "label": "license"
         },
         {
+            "o:alternate_label": "Access condition",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "numeric:timestamp",
+                    "label": "Timestamp"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "conditionsOfAccess",
+            "label": "conditionsOfAccess"
+        },
+        {
             "o:alternate_label": "Copyright",
             "o:alternate_comment": null,
             "o:is_required": false,
@@ -93,17 +124,6 @@
             "vocabulary_label": "Schema.org",
             "local_name": "copyrightHolder",
             "label": "copyrightHolder"
-        },
-        {
-            "o:alternate_label": "Volume",
-            "o:alternate_comment": null,
-            "o:is_required": false,
-            "o:is_private": false,
-            "data_types": [],
-            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
-            "vocabulary_label": "Schema.org",
-            "local_name": "volumeNumber",
-            "label": "volumeNumber"
         }
     ],
     "o:resource_class": {

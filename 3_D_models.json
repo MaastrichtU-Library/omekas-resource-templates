@@ -178,7 +178,7 @@
             "label": "license"
         },
         {
-            "o:alternate_label": "Copyright",
+            "o:alternate_label": "Access condition",
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
@@ -188,8 +188,24 @@
                     "label": "Text"
                 },
                 {
-                    "name": "valuesuggest:oclc:viaf",
-                    "label": "OCLC: The Virtual International Authority File (VIAF)"
+                    "name": "numeric:timestamp",
+                    "label": "Timestamp"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "conditionsOfAccess",
+            "label": "conditionsOfAccess"
+        },
+        {
+            "o:alternate_label": "Copyright",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
                 }
             ],
             "vocabulary_namespace_uri": "https:\/\/schema.org\/",
