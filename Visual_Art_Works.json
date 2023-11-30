@@ -6,6 +6,7 @@
             "o:alternate_comment": null,
             "o:is_required": true,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -22,6 +23,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -29,7 +31,7 @@
                 },
                 {
                     "name": "valuesuggest:ndeterms:wikipers",
-                    "label": "NDE: Wikidata: personen"
+                    "label": "NDE: Wikidata: persons"
                 },
                 {
                     "name": "valuesuggest:oclc:viaf",
@@ -46,6 +48,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -53,7 +56,7 @@
                 },
                 {
                     "name": "valuesuggest:ndeterms:wikipers",
-                    "label": "NDE: Wikidata: personen"
+                    "label": "NDE: Wikidata: persons"
                 },
                 {
                     "name": "valuesuggest:oclc:viaf",
@@ -70,6 +73,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -86,14 +90,15 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
                     "label": "Text"
                 },
                 {
-                    "name": "valuesuggest:ndeterms:wikipers",
-                    "label": "NDE: Wikidata: personen"
+                    "name": "valuesuggest:ndeterms:wikiall",
+                    "label": "NDE: Wikidata: all entities"
                 },
                 {
                     "name": "valuesuggest:oclc:viaf",
@@ -110,6 +115,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -130,6 +136,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "numeric:timestamp",
@@ -150,6 +157,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -166,6 +174,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -186,6 +195,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -206,6 +216,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -226,6 +237,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -246,6 +258,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -266,6 +279,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -286,6 +300,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -306,6 +321,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",

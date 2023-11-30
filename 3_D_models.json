@@ -6,6 +6,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -22,6 +23,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -29,7 +31,7 @@
                 },
                 {
                     "name": "valuesuggest:ndeterms:wikipers",
-                    "label": "NDE: Wikidata: personen"
+                    "label": "NDE: Wikidata: persons"
                 },
                 {
                     "name": "valuesuggest:oclc:viaf",
@@ -46,6 +48,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "numeric:timestamp",
@@ -66,6 +69,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -82,6 +86,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -93,7 +98,7 @@
                 },
                 {
                     "name": "valuesuggest:getty:aat",
-                    "label": "Getty: The Art & Architecture Thesaurus (AAT)"
+                    "label": "Getty: Art & Architecture Thesaurus (AAT)"
                 }
             ],
             "vocabulary_namespace_uri": "https:\/\/schema.org\/",
@@ -106,6 +111,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -122,6 +128,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -142,6 +149,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -162,6 +170,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -182,6 +191,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -202,6 +212,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -218,6 +229,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",

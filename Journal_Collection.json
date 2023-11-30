@@ -6,6 +6,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -22,6 +23,7 @@
             "o:alternate_comment": "Description of the journal collection",
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [],
             "vocabulary_namespace_uri": "https:\/\/schema.org\/",
             "vocabulary_label": "Schema.org",
@@ -29,34 +31,11 @@
             "label": "description"
         },
         {
-            "o:alternate_label": "Publisher",
-            "o:alternate_comment": null,
-            "o:is_required": false,
-            "o:is_private": false,
-            "data_types": [
-                {
-                    "name": "literal",
-                    "label": "Text"
-                },
-                {
-                    "name": "valuesuggest:ndeterms:wikiall",
-                    "label": "NDE: Wikidata: alle entiteiten"
-                },
-                {
-                    "name": "valuesuggest:oclc:viaf",
-                    "label": "OCLC: The Virtual International Authority File (VIAF)"
-                }
-            ],
-            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
-            "vocabulary_label": "Schema.org",
-            "local_name": "publisher",
-            "label": "publisher"
-        },
-        {
             "o:alternate_label": "Place of publication",
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -73,10 +52,36 @@
             "label": "locationCreated"
         },
         {
+            "o:alternate_label": "Publisher",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "valuesuggest:ndeterms:wikiall",
+                    "label": "NDE: Wikidata: all entities"
+                },
+                {
+                    "name": "valuesuggest:oclc:viaf",
+                    "label": "OCLC: The Virtual International Authority File (VIAF)"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "publisher",
+            "label": "publisher"
+        },
+        {
             "o:alternate_label": "Year of publication",
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "numeric:timestamp",
@@ -97,6 +102,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "valuesuggest:lc:iso6391",
@@ -117,6 +123,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -133,6 +140,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [],
             "vocabulary_namespace_uri": "https:\/\/schema.org\/",
             "vocabulary_label": "Schema.org",
@@ -140,10 +148,23 @@
             "label": "issn"
         },
         {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "abstract",
+            "label": "abstract"
+        },
+        {
             "o:alternate_label": "Superseded by",
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -164,6 +185,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -184,6 +206,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -204,6 +227,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "uri",
@@ -220,6 +244,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -240,6 +265,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -260,6 +286,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -280,6 +307,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
