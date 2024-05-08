@@ -314,8 +314,8 @@
                     "label": "Text"
                 },
                 {
-                    "name": "valuesuggest:geonames:geonames",
-                    "label": "Geonames: The GeoNames geographical database"
+                    "name": "valuesuggest:ndeterms:wikiall",
+                    "label": "NDE: Wikidata: all entities"
                 },
                 {
                     "name": "valuesuggest:oclc:viaf",
