@@ -177,8 +177,12 @@
                     "label": "Text"
                 },
                 {
-                    "name": "customvocab:2",
-                    "label": "CC-Licenses"
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "valuesuggest:ndeterms:wikiall",
+                    "label": "NDE: Wikidata: all entities"
                 }
             ],
             "vocabulary_namespace_uri": "https:\/\/schema.org\/",
