@@ -317,12 +317,12 @@
             "o:default_lang": null,
             "data_types": [
                 {
-                    "name": "valuesuggest:lc:iso6391",
-                    "label": "LC: ISO639-1 Languages"
+                    "name": "literal",
+                    "label": "Text"
                 },
                 {
-                    "name": "customvocab:1",
-                    "label": "Languages"
+                    "name": "valuesuggest:lc:iso6391",
+                    "label": "LC: ISO639-1 Languages"
                 }
             ],
             "vocabulary_namespace_uri": "https:\/\/schema.org\/",
@@ -440,12 +440,16 @@
             "o:alternate_label": "Keywords",
             "o:alternate_comment": null,
             "o:is_required": false,
-            "o:is_private": false,
+            "o:is_private": true,
             "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
                     "label": "Text"
+                },
+                {
+                    "name": "valuesuggest:ndeterms:wikiall",
+                    "label": "NDE: Wikidata: all entities"
                 }
             ],
             "vocabulary_namespace_uri": "https:\/\/schema.org\/",
@@ -477,6 +481,10 @@
             "o:is_private": false,
             "o:default_lang": null,
             "data_types": [
+                {
+                    "name": "valuesuggest:ndeterms:wikiall",
+                    "label": "NDE: Wikidata: all entities"
+                },
                 {
                     "name": "valuesuggest:lc:genreForms",
                     "label": "LC: Genre\/Form Terms"
