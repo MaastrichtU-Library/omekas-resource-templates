@@ -105,12 +105,12 @@
             "o:default_lang": null,
             "data_types": [
                 {
-                    "name": "valuesuggest:lc:iso6391",
-                    "label": "LC: ISO639-1 Languages"
+                    "name": "literal",
+                    "label": "Text"
                 },
                 {
-                    "name": "customvocab:1",
-                    "label": "Languages"
+                    "name": "valuesuggest:lc:iso6391",
+                    "label": "LC: ISO639-1 Languages"
                 }
             ],
             "vocabulary_namespace_uri": "https:\/\/schema.org\/",
@@ -173,6 +173,10 @@
                 {
                     "name": "uri",
                     "label": "URI"
+                },
+                {
+                    "name": "resource:itemset",
+                    "label": "Item Set"
                 }
             ],
             "vocabulary_namespace_uri": "https:\/\/schema.org\/",
@@ -194,6 +198,10 @@
                 {
                     "name": "uri",
                     "label": "URI"
+                },
+                {
+                    "name": "resource:itemset",
+                    "label": "Item Set"
                 }
             ],
             "vocabulary_namespace_uri": "https:\/\/schema.org\/",
